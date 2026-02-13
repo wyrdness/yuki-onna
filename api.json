@@ -1,10 +1,8 @@
 {
-  "category": "ENTITY_SPIRIT",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/yuki-onna",
     "maintainers": [
       {
@@ -18,346 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "yuki-onna",
     "name": "Yuki-Onna",
-    "aliases": [
-      {
-        "name": "雪女",
-        "language": "Japanese (Kanji)",
-        "meaning": "snow woman"
-      },
-      {
-        "name": "Yuki-Musume",
-        "language": "Japanese",
-        "meaning": "snow daughter"
-      },
-      {
-        "name": "Yuki-Onago",
-        "language": "Japanese",
-        "meaning": "snow girl"
-      },
-      {
-        "name": "Yukinba",
-        "language": "Japanese",
-        "region": "Ehime Prefecture",
-        "meaning": "snow hag"
-      }
-    ],
+    "aliases": [],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Yokai",
+    "subcategory": "Nature spirit",
     "tags": [
-      "yokai",
-      "spirit",
-      "japanese",
-      "winter",
-      "snow",
-      "ghost-like",
-      "shape-shifter",
-      "fatal",
-      "female"
+      "folklore",
+      "mythology"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "Japanese winter spirit depicted as a beautiful woman with pale white skin, long black hair, and white kimono. Appears to travelers in snowstorms and freezes victims with her breath or drains their life force.",
-      "full": "Yuki-Onna, the 'Snow Woman,' is a prominent yokai in Japanese folklore. She appears as a beautiful woman with extremely pale or white skin, long black hair, and wearing a white kimono, materializing during snowstorms. Yuki-Onna encounters travelers in the snow, often leading them astray or directly attacking them with her freezing breath that drains life force. Her behavior varies by regional tradition - sometimes she is purely malevolent, freezing all she meets; other times she shows mercy to those who demonstrate kindness or bravery. The most famous account is Lafcadio Hearn's story in which she spares a young man, warning him never to speak of their encounter, then returns years later as his wife. When he breaks his promise, she vanishes into the snow. Yuki-Onna embodies winter's dual nature: beautiful yet deadly, capable of both mercy and cruelty."
+      "summary": "Yuki-Onna, the \\\"Snow Woman,\\\" is a prominent yokai in Japanese folklore.",
+      "full": "Yuki-Onna, the \\\"Snow Woman,\\\" is a prominent yokai in Japanese folklore. She appears as a beautiful woman with extremely pale or white skin, long black hair, and wearing a white kimono, materializing during snowstorms. Yuki-Onna encounters travelers in the snow, often leading them astray or directly attacking them with her freezing breath that drains life force. Her behavior varies by regional tradition - sometimes she is purely malevolent, freezing all she meets; other times she shows mercy to those who demonstrate kindness or bravery. The most famous account is Lafcadio Hearn's story in which she spares a young man, warning him never to speak of their encounter, then returns years later as his wife. When he breaks his promise, she vanishes into the snow. Yuki-Onna embodies winter's dual nature: beautiful yet deadly, capable of both mercy and cruelty."
     },
     "etymology": {
-      "origin": "Japanese: 雪 (yuki) 'snow' + 女 (onna) 'woman'",
-      "meaning": "Snow woman",
-      "first_use": "Muromachi period (1336-1573), formalized in Edo period (1603-1867)"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Yokai",
-      "subtype": "Nature spirit",
-      "variant": "Japanese"
+      "type": "Nature spirit",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "banshee",
-        "name": "Banshee",
-        "relationship": "similar",
-        "description": "Irish female spirit with ominous presence"
-      },
-      {
-        "id": "white-lady",
-        "name": "White Lady",
-        "relationship": "similar",
-        "description": "European female ghost in white"
-      },
-      {
-        "id": "rusalka",
-        "name": "Rusalka",
-        "relationship": "similar",
-        "description": "Slavic female water spirit"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "appearance": {
-        "skin": "Extremely pale white, almost translucent",
-        "hair": "Long, straight, black hair",
-        "clothing": "White kimono, sometimes described as appearing to blend with snow",
-        "eyes": "Varies - sometimes described as normal, sometimes black or icy blue",
-        "build": "Tall, slender, ethereal beauty"
-      },
-      "features": [
-        {
-          "feature": "Pale complexion",
-          "description": "Skin white as snow, sometimes translucent or glowing",
-          "frequency": "always"
-        },
-        {
-          "feature": "White kimono",
-          "description": "Traditional white robes, often indistinguishable from snow",
-          "frequency": "always"
-        },
-        {
-          "feature": "Black hair",
-          "description": "Long, flowing black hair contrasting with pale skin",
-          "frequency": "common"
-        },
-        {
-          "feature": "No footprints",
-          "description": "Leaves no tracks in the snow",
-          "frequency": "common"
-        },
-        {
-          "feature": "Ethereal presence",
-          "description": "Appears and disappears like mist or snow",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Appears as beautiful woman but is fundamentally a spirit of winter. Can materialize and dematerialize at will, especially in snow or blizzards."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Freezing breath",
-        "description": "Breath that freezes victims solid or drains life force",
-        "frequency": "always",
-        "evidence_level": "folkloric"
-      },
-      {
-        "ability": "Snow manipulation",
-        "description": "Control over snow and ice, can create blizzards",
-        "frequency": "common",
-        "evidence_level": "folkloric"
-      },
-      {
-        "ability": "Invisibility in snow",
-        "description": "Can become invisible during snowstorms, blending with environment",
-        "frequency": "common",
-        "evidence_level": "folkloric"
-      },
-      {
-        "ability": "Materialization",
-        "description": "Appears and disappears at will, especially in snowstorms",
-        "frequency": "always",
-        "evidence_level": "folkloric"
-      },
-      {
-        "ability": "Life force drain",
-        "description": "Can drain vitality from victims, leaving them frozen corpses",
-        "frequency": "common",
-        "evidence_level": "folkloric"
-      },
-      {
-        "ability": "Shape-shifting",
-        "description": "Some versions can assume human form convincingly",
-        "frequency": "occasional",
-        "evidence_level": "folkloric"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "winter, during snowstorms",
-      "disposition": "ambivalent",
-      "habitat_preference": [
-        "mountains",
-        "snowy regions",
-        "remote areas",
-        "during blizzards"
-      ],
-      "patterns": [
-        "Appears to lone travelers in snow",
-        "Sometimes merciful to kind or brave individuals",
-        "Vengeful if betrayed or promise broken",
-        "Vanishes when promise violated or identity revealed"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Throughout Japan, particularly in mountainous and snowy regions",
-      "continents": ["Asia"],
-      "countries": ["Japan"],
-      "regions": [
-        "Hokkaido",
-        "Northern Honshu",
-        "Japanese Alps",
-        "Mountainous prefectures",
-        "Any region with heavy snowfall"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "regional_variations": [
-      {
-        "region": "General Japan",
-        "name": "Yuki-Onna",
-        "characteristics": "Beautiful woman who freezes victims"
-      },
-      {
-        "region": "Ehime Prefecture",
-        "name": "Yukinba",
-        "characteristics": "More hag-like appearance"
-      },
-      {
-        "region": "Various",
-        "name": "Yuki-Musume",
-        "characteristics": "Younger, daughter-like version"
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
       }
-    ]
+    }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Japanese yokai tradition, winter folklore, animistic beliefs about nature spirits",
-      "earliest_accounts": "Muromachi period (1336-1573) oral traditions, formalized in Edo period texts",
-      "folklore_connections": "Part of broader yokai tradition, connected to nature spirit beliefs"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "1336-1573",
-        "event": "Muromachi period",
-        "significance": "Early oral traditions of Yuki-Onna emerge",
-        "source": "Oral folklore"
-      },
-      {
-        "date": "1603-1867",
-        "event": "Edo period documentation",
-        "significance": "Yuki-Onna stories recorded in yokai compilations",
-        "source": "Edo period texts"
-      },
-      {
-        "date": "1904",
-        "event": "Lafcadio Hearn's 'Yuki-Onna'",
-        "significance": "Published definitive Western account in 'Kwaidan: Stories and Studies of Strange Things'",
-        "source": "Hearn, Lafcadio. Kwaidan"
-      },
-      {
-        "date": "1968",
-        "event": "Kwaidan film",
-        "significance": "Masaki Kobayashi's film brings Yuki-Onna to cinema",
-        "source": "Film: Kwaidan"
-      },
-      {
-        "date": "1996-present",
-        "event": "Pokémon Froslass",
-        "significance": "Modern popular culture adaptation in Pokémon franchise",
-        "source": "Pokémon media"
-      }
-    ],
-    "modern_era": "Yuki-Onna remains one of the most recognizable yokai in Japanese popular culture. Featured extensively in anime, manga, video games (Pokémon's Froslass), and films. Continues as part of living folklore tradition in Japan."
+    "timeline": []
   },
-
-  "famous_accounts": [
-    {
-      "name": "Lafcadio Hearn's Yuki-Onna",
-      "date": "1904",
-      "source": "Kwaidan: Stories and Studies of Strange Things",
-      "description": "A woodcutter named Minokichi encounters Yuki-Onna who spares him but warns him never to speak of her. Years later he marries a beautiful woman named O-Yuki who bears his children. When he tells her about his youthful encounter, she reveals herself as Yuki-Onna and vanishes, sparing him only for their children's sake.",
-      "significance": "Most famous Western account, established canonical version"
-    }
-  ],
-
-  "symbolism": {
-    "primary_meanings": [
-      "Winter's beauty and danger",
-      "Nature's dual character (nurturing and destructive)",
-      "Ephemeral beauty",
-      "Danger of isolation in winter",
-      "Consequences of broken promises",
-      "Fatal attraction"
-    ],
-    "spiritual_significance": "Represents winter as a spirit, embodying both its serene beauty and lethal danger. Symbolizes nature's indifference to human life, capable of mercy or cruelty without pattern."
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Winter warning tales for travelers",
-        "Regional yokai festivals",
-        "Ghost story (kaidan) tradition",
-        "Cautionary tales about mountain travel"
-      ],
-      "beliefs": "Yuki-Onna serves as warning against winter travel dangers. Represents real dangers of hypothermia and getting lost in snowstorms personified as a spirit."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Lafcadio Hearn - 'Yuki-Onna' (1904)",
-        "Numerous modern manga and light novels",
-        "Featured in yokai encyclopedias"
-      ],
-      "film_tv": [
-        "Kwaidan (1968) - anthology film segment",
-        "Countless anime appearances",
-        "Japanese horror films",
-        "GeGeGe no Kitaro series"
-      ],
-      "games": [
-        "Pokémon - Froslass (based on Yuki-Onna)",
-        "Nioh video game series",
-        "Various Japanese RPGs"
-      ],
-      "other": [
-        "Art and ukiyo-e prints",
-        "Modern Japanese art",
-        "Tourism and local festivals in snowy regions"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "cultural_sensitivity": {
-    "note": "Yuki-Onna is part of traditional Japanese cultural heritage and yokai folklore. While not a religious figure, it represents important cultural beliefs about nature and caution.",
-    "guidelines": [
-      "Recognize as cultural tradition, not mere fiction",
-      "Understand folkloric context and warning tale function",
-      "Respect regional variations in tradition",
-      "Distinguish between traditional folklore and modern adaptations"
-    ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "hearn-1904",
-      "type": "book",
-      "title": "Kwaidan: Stories and Studies of Strange Things",
-      "authors": ["Lafcadio Hearn"],
-      "publication": "Houghton, Mifflin and Company",
-      "date": "1904"
-    },
-    {
-      "id": "foster-2015",
-      "type": "book",
-      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
-      "authors": ["Michael Dylan Foster"],
-      "publication": "University of California Press",
-      "date": "2015",
-      "isbn": "978-0520271029"
-    },
-    {
-      "id": "davisson-2013",
-      "type": "book",
-      "title": "Yurei: The Japanese Ghost",
-      "authors": ["Zack Davisson"],
-      "publication": "Chin Music Press",
-      "date": "2013"
-    }
-  ]
+  "sources": []
 }
