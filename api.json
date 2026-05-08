@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/yuki-onna",
     "maintainers": [
       {
@@ -16,72 +16,152 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "yuki-onna",
-    "name": "Yuki-Onna",
-    "aliases": [],
+    "name": "Yuki-onna",
+    "aliases": [
+      { "name": "雪女", "language": "Japanese", "meaning": "snow woman" },
+      { "name": "Yuki-musume", "language": "Japanese", "meaning": "snow daughter" },
+      { "name": "Yukihime", "language": "Japanese", "meaning": "snow princess" },
+      { "name": "Yuki-onba", "language": "Japanese", "region": "Ehime Prefecture", "meaning": "snow granny / snow nanny" },
+      { "name": "Tsurara-onna", "language": "Japanese", "meaning": "icicle woman" },
+      { "name": "Koshi-musume", "language": "Japanese", "region": "Fukui Prefecture", "meaning": "passing girl" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Nature spirit",
+    "subcategory": "Yokai / nature spirit",
     "tags": [
+      "yokai",
+      "yurei",
+      "japan",
+      "winter",
+      "snow",
       "folklore",
-      "mythology"
+      "nature-spirit",
+      "supernatural-female"
     ],
     "status": "documented",
     "description": {
-      "summary": "Yuki-Onna, the \\\"Snow Woman,\\\" is a prominent yokai in Japanese folklore.",
-      "full": "Yuki-Onna, the \\\"Snow Woman,\\\" is a prominent yokai in Japanese folklore. She appears as a beautiful woman with extremely pale or white skin, long black hair, and wearing a white kimono, materializing during snowstorms. Yuki-Onna encounters travelers in the snow, often leading them astray or directly attacking them with her freezing breath that drains life force. Her behavior varies by regional tradition - sometimes she is purely malevolent, freezing all she meets; other times she shows mercy to those who demonstrate kindness or bravery. The most famous account is Lafcadio Hearn's story in which she spares a young man, warning him never to speak of their encounter, then returns years later as his wife. When he breaks his promise, she vanishes into the snow. Yuki-Onna embodies winter's dual nature: beautiful yet deadly, capable of both mercy and cruelty."
+      "summary": "Yuki-onna ('snow woman') is a yokai of Japanese folklore who appears on snowy nights as a tall, pale, beautiful woman in a white kimono. She personifies winter and death by hypothermia, and is famous in the West through Lafcadio Hearn's 'Kwaidan' (1904).",
+      "full": "Yuki-onna (雪女, 'snow woman') is one of the most prominent yokai (yurei) of Japanese folklore. She appears during snowstorms or on snowy nights as an extraordinarily tall, beautiful woman with long black hair, blue lips, and inhumanly pale or transparent skin, typically dressed in a white kimono. She is said to glide across the snow leaving no footprints, and in some traditions has no feet — a feature she shares with many Japanese ghosts. Yuki-onna's behaviour is regionally varied. In some traditions she is purely lethal, freezing travellers solid with her icy breath or draining their life-force ('seiki') through their mouths; in others she is capable of mercy, sparing the young or the kind, and may even marry a human and live as a wife until her supernatural nature is revealed. The earliest known textual reference is in the Muromachi-period renga poet Sōgi's Sōgi Shokoku Monogatari, in which he records seeing a yuki-onna in Echigo Province (modern Niigata Prefecture). The story most familiar to Western readers is Lafcadio Hearn's 1904 retelling in 'Kwaidan: Stories and Studies of Strange Things', in which the woodcutter Minokichi is spared by a yuki-onna and later unknowingly marries her as 'O-Yuki', who departs into the snow when he breaks his promise of silence. Regional variants include the icicle-spirit Tsurara-onna and the elderly Yuki-onba of Ehime."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "From Japanese 雪 (yuki, 'snow') + 女 (onna, 'woman').",
+      "meaning": "'Snow woman'.",
+      "first_use": "Muromachi period (14th–16th century), in Sōgi's Sōgi Shokoku Monogatari."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Nature spirit",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Yokai",
+      "subtype": "Yurei (ghost) / nature spirit",
+      "variant": "Japanese (snow-country)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "yama-uba", "name": "Yama-uba", "relationship": "related", "description": "Mountain crone of Japanese folklore" },
+      { "id": "ubume", "name": "Ubume", "relationship": "related", "description": "Japanese ghost of a woman who died in childbirth" },
+      { "id": "tsurara-onna", "name": "Tsurara-onna", "relationship": "regional_variant", "description": "Icicle-woman variant of the snow-spirit" },
+      { "id": "yurei", "name": "Yurei (general)", "relationship": "superset", "description": "Japanese ghosts as a general class" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 1.6, "max": 1.9, "unit": "meters", "confidence": "low" },
+      "coloration": ["pale white", "transparent skin", "black hair", "blue lips", "white kimono"],
+      "features": [
+        { "feature": "Tall, beautiful woman", "description": "Tall and beautiful, with long black hair", "frequency": "always" },
+        { "feature": "Pale or transparent skin", "description": "Inhumanly pale, sometimes described as transparent, blending into the snow", "frequency": "always" },
+        { "feature": "Blue lips", "description": "Lips described as blue with cold", "frequency": "common" },
+        { "feature": "White kimono", "description": "Typically dressed in a white kimono; some accounts describe her as nude with only face and hair visible against snow", "frequency": "common" },
+        { "feature": "Floats over snow", "description": "Glides across the snow leaving no footprints", "frequency": "common" },
+        { "feature": "No feet", "description": "Some regional traditions describe her with no feet, a typical trait of Japanese ghosts", "frequency": "occasional" }
+      ],
+      "morphology": "Yurei-style female form: tall, slender, pale, with classic supernatural features (lack of footprints, ability to dissolve into mist or snow)."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Freezing breath", "description": "Kills travellers with an icy breath that freezes them solid", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Life-force draining (seiki)", "description": "In several regional variants she drains the victim's vital energy through their mouth", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Misleading travellers", "description": "Leads travellers astray in blizzards, often to their deaths", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Dissolution into snow or mist", "description": "Can dissolve into a flurry of snow or a cloud of mist if threatened", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Shapeshifting / human marriage", "description": "Can pass for human and live as a wife and mother for years before her nature is revealed (Hearn's Minokichi story and parallels)", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "snowy mountain passes",
+        "winter forests",
+        "remote villages in northern and central Japan during snowstorms"
+      ],
+      "diet": "Human life-force or simply human deaths by cold, depending on tradition",
+      "patterns": [
+        "Appears during snowstorms or on bright snowy nights",
+        "Targets lone travellers, woodcutters, and those caught out in blizzards",
+        "May spare the young, the kind, or those with whom she has formed a bond",
+        "Frequently appears in pairs of victims, sparing one and killing the other"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Yuki-onna traditions are concentrated in the snow-country of northern and central Japan, especially in prefectures with heavy winter snowfall: Niigata (the historical Echigo Province), Aomori, Yamagata, Akita, Miyagi, Fukushima, Iwate, Gunma, Fukui, Ibaraki, and Ehime, among others.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": [
+        "Tōhoku (Aomori, Yamagata, Akita, Iwate, Miyagi, Fukushima)",
+        "Hokuriku (Niigata, Fukui)",
+        "Kantō (Gunma, Ibaraki)",
+        "Shikoku (Ehime)",
+        "Echigo Province (historical, modern Niigata)"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Echigo Province (modern Niigata)",
+        "location": {
+          "description": "Historical Echigo Province, modern Niigata Prefecture; site of Sōgi's Muromachi-era yuki-onna account",
+          "country": "Japan",
+          "region": "Niigata"
+        },
+        "peak_period": "Muromachi period – present",
+        "notes": "Earliest documented yuki-onna account is set here."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Muromachi period",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Sōgi, Sōgi Shokoku Monogatari (14th–16th century)"
+      },
+      "peak_activity_periods": [
+        { "period": "Edo period (1603–1868)", "description": "Wide circulation of yuki-onna stories in regional folklore and yokai compendia" },
+        { "period": "1904", "description": "Lafcadio Hearn's 'Kwaidan' brings the yuki-onna into Western literary canon" }
+      ],
+      "seasonal_patterns": "Strictly winter; yuki-onna appears during snowstorms or on snowy nights, never in other seasons."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Yuki-onna belongs to a wider Japanese tradition of yokai and yurei tied to the natural world, in which weather, mountains, rivers, and seasonal transitions are inhabited by named spirits. She personifies winter and the very real risk of death by cold in pre-modern Japan.",
+      "earliest_accounts": "The earliest documented reference is in the Muromachi-era renga master Sōgi's 'Sōgi Shokoku Monogatari', recording an encounter while staying in Echigo Province.",
+      "folklore_connections": "Connected to other Japanese female yokai such as the Yama-uba (mountain crone), Ubume (childbed ghost), and the icicle-spirit Tsurara-onna. The Edo intellectual Yamaoka Genrin theorised that yuki-onna emerged from the meeting of two yin elements — snow and women."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "Muromachi period", "event": "The renga poet Sōgi records seeing a yuki-onna while staying in Echigo Province in his 'Sōgi Shokoku Monogatari'", "significance": "Earliest known textual reference", "source": "Sōgi, Sōgi Shokoku Monogatari" },
+      { "date": "Edo period", "event": "Yuki-onna features in regional folktale collections and yokai compendia across snow-country Japan", "significance": "Consolidation of regional variants", "source": "Edo-era folktale anthologies and yokai compendia" },
+      { "date": "1904", "event": "Lafcadio Hearn (Koizumi Yakumo) publishes 'Kwaidan: Stories and Studies of Strange Things', including the canonical Minokichi / O-Yuki tale", "significance": "Introduction of the yuki-onna to the Western literary canon", "source": "Hearn, L. (1904), Kwaidan, Houghton Mifflin" },
+      { "date": "1965", "event": "Masaki Kobayashi's film adaptation 'Kwaidan' brings the Hearn yuki-onna story to international cinema", "significance": "Major mid-century cinematic adaptation; winner of the Cannes Special Jury Prize", "source": "Kobayashi, M. (dir.), Kwaidan (1965)" },
+      { "date": "1990", "event": "Akira Kurosawa's 'Dreams' includes a yuki-onna sequence ('The Blizzard')", "significance": "Yuki-onna in canonical late-20th-century world cinema", "source": "Kurosawa, A. (dir.), Dreams (1990)" }
+    ],
+    "modern_era": "Yuki-onna remains one of the most recognisable Japanese yokai in popular culture, appearing across anime, manga, film, video games, and merchandising. Folklorists such as Nobuyoshi Furuhashi continue to analyse her as a figure expressing the loneliness, beauty, and danger of mountain winter."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +172,127 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "yuki-evidence-sogi-monogatari",
+        "type": "historical text",
+        "name": "Sōgi Shokoku Monogatari",
+        "description": "Muromachi-era travel and miscellany text by the renga poet Sōgi, containing the earliest known reference to a yuki-onna encounter in Echigo Province.",
+        "status": "verified",
+        "analysis": "Genuine medieval Japanese text; treated as a folkloric, not zoological, record.",
+        "source": "Sōgi, Sōgi Shokoku Monogatari"
+      },
+      {
+        "id": "yuki-evidence-hearn-kwaidan",
+        "type": "book",
+        "name": "Kwaidan: Stories and Studies of Strange Things",
+        "description": "Lafcadio Hearn's 1904 collection containing the canonical English-language yuki-onna story of Minokichi and O-Yuki.",
+        "status": "verified",
+        "analysis": "Hearn drew on Japanese oral and written sources; the story has become the dominant yuki-onna narrative in global popular culture.",
+        "source": "Hearn, L. (1904), Kwaidan, Houghton Mifflin"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Yokai / yurei",
+        "description": "Within the Japanese folkloric framework, yuki-onna is straightforwardly a yokai or yurei — a supernatural being, often the ghost of a woman who died in the snow, attached to winter and to specific mountain places.",
+        "proponents": ["Traditional Japanese folkloric and Buddhist commentators"],
+        "evidence_cited": ["Continuous regional traditions across snow-country Japan", "Embedding in broader yokai and yurei taxonomies"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Personification of hypothermia",
+        "description": "Yuki-onna can be read as a folkloric personification of death by exposure in deep snow, encoding both the seductive sleep-onset of hypothermia and the very real lethality of winter travel in pre-modern Japan.",
+        "proponents": ["Modern folklorists and historians of Japanese religion"],
+        "evidence_cited": ["Concentration of legends in heaviest-snowfall regions", "Physiological parallels between hypothermia symptoms and the yuki-onna's described effects"]
+      },
+      {
+        "name": "Yin–yin generation hypothesis",
+        "description": "The Edo-period intellectual Yamaoka Genrin proposed that yuki-onna arise from the combination of two 'yin' elements — snow and women — within an early-modern cosmological framework.",
+        "proponents": ["Yamaoka Genrin"],
+        "evidence_cited": ["Edo-era cosmological literature applying yin-yang categories to natural phenomena"]
+      },
+      {
+        "name": "Mountain isolation hypothesis",
+        "description": "Folklorist Nobuyoshi Furuhashi suggested yuki-onna legends emerged from the experience of mountain dwellers — longing, loneliness, and fear during long isolated winters.",
+        "proponents": ["Nobuyoshi Furuhashi"],
+        "evidence_cited": ["Concentration of legends in remote snow-country mountain villages"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Snow-country oral storytelling across Tōhoku, Hokuriku, and parts of Kantō and Shikoku",
+        "Regional yuki-onna variants (Tsurara-onna, Yuki-onba, Koshi-musume, Yukihime)",
+        "Connection to toshigami (year gods) visiting at seasonal transitions"
+      ],
+      "stories": [
+        "Sōgi's Muromachi-era Echigo encounter (Sōgi Shokoku Monogatari)",
+        "Tottori water-beggar yuki-onna who swells with cold water and melts with hot",
+        "Yamagata moon-princess variant (a lunar princess trapped on Earth)",
+        "Aomori Hirosaki story of a warrior who avoids her curse with a tantō",
+        "Tōno (Iwate) yuki-onna who leads children away on Little New Year",
+        "Lafcadio Hearn's Minokichi / O-Yuki story (Kwaidan, 1904)"
+      ],
+      "beliefs": "Yuki-onna is consistently treated as a real supernatural presence in snow-country folklore, with appropriate behaviour in a blizzard (silence, kindness, self-restraint) regarded as practical protection."
+    },
+    "indigenous": {
+      "cultures": ["Japanese (snow-country regional traditions)"],
+      "significance": "A central winter figure in Japanese folk religion and storytelling, intertwined with everyday practices for surviving deep snowfall and mountain travel.",
+      "sensitivity_note": "Yuki-onna is part of a living Japanese folkloric tradition; popular Western treatments often flatten regional variation.",
+      "respect_guidelines": "Cite Japanese-language scholarship and original folkloric sources where possible; preserve regional variant names rather than collapsing them into a single 'snow woman' figure."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Kwaidan: Stories and Studies of Strange Things — Lafcadio Hearn (1904)",
+        "Sōgi Shokoku Monogatari — Sōgi (Muromachi period)",
+        "Numerous Edo-period yokai compendia"
+      ],
+      "film_tv": [
+        "Kwaidan (dir. Masaki Kobayashi, 1965)",
+        "Dreams (dir. Akira Kurosawa, 1990) — 'The Blizzard' segment",
+        "The Snow Woman (Kuroneko / Yuki-onna, dir. Tokuzō Tanaka, 1968)"
+      ],
+      "games": [
+        "Pokémon — Froslass (yuki-onna inspired)",
+        "Yu-Gi-Oh! — Yuki-Onna trading card",
+        "Various Japanese RPGs feature yuki-onna as an enemy or allied yokai"
+      ],
+      "music": [],
+      "other": [
+        "Manga and anime appearances including Rosario + Vampire and Nura: Rise of the Yokai Clan"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Lafcadio Hearn (Koizumi Yakumo)", "affiliation": "Naturalised Japanese writer", "contribution": "Recorded and translated the canonical Minokichi / O-Yuki story in 'Kwaidan' (1904)", "period": "late 19th – early 20th century" },
+      { "name": "Yamaoka Genrin", "affiliation": "Edo-period intellectual", "contribution": "Yin–yin theoretical account of yuki-onna's origin", "period": "Edo period" },
+      { "name": "Nobuyoshi Furuhashi", "affiliation": "Japanese folklore scholar", "contribution": "Interpreted yuki-onna legends as expressions of mountain-village isolation", "period": "20th century" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Active scholarship on yuki-onna sits within Japanese folklore studies, religious studies, and yokai studies, with continuing work from researchers in the lineage of Kunio Yanagita's folklore tradition."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-yuki-onna", "type": "website", "title": "Yuki-onna", "url": "https://en.wikipedia.org/wiki/Yuki-onna", "accessed": "2026-05-07" },
+    { "id": "hearn-1904", "type": "book", "title": "Kwaidan: Stories and Studies of Strange Things", "authors": ["Lafcadio Hearn"], "publication": "Houghton Mifflin", "date": "1904" },
+    { "id": "yokai-com-yuki-onna", "type": "website", "title": "Yuki onna", "url": "https://yokai.com/yukionna/", "accessed": "2026-05-07" },
+    { "id": "japan-up-close-yuki-onna", "type": "article", "title": "Yuki Onna: Shining a spotlight on a Japanese folklore legend", "publication": "Japan Up Close", "url": "https://japanupclose.web-japan.org/culture/c20220302_3.html", "accessed": "2026-05-07" }
+  ]
 }
